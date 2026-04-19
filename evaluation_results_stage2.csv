@@ -1,0 +1,11 @@
+id,text,label,split,meta,raw_output,predicted_label,strategy
+4,Shipping was fast and the packaging was perfect.,positive,test,"{'annotator_a': 'positive', 'annotator_b': 'positive', 'resolution_method': 'agreement'}",Positive.,positive,zero_shot
+7,"Works exactly as described, very happy.",positive,test,"{'annotator_a': 'positive', 'annotator_b': 'positive', 'resolution_method': 'agreement'}",Positive.,positive,zero_shot
+16,Late delivery with zero communication from the seller.,negative,test,"{'annotator_a': 'negative', 'annotator_b': 'negative', 'resolution_method': 'agreement'}",Negative.,negative,zero_shot
+22,"Average product, nothing special.",neutral,test,"{'annotator_a': 'neutral', 'annotator_b': 'neutral', 'resolution_method': 'agreement'}",Neutral.,neutral,zero_shot
+29,Acceptable for the price point.,neutral,test,"{'annotator_a': 'neutral', 'annotator_b': 'negative', 'resolution_method': 'gold_fallback'}",Neutral,neutral,zero_shot
+4,Shipping was fast and the packaging was perfect.,positive,test,"{'annotator_a': 'positive', 'annotator_b': 'positive', 'resolution_method': 'agreement'}",positive,positive,few_shot
+7,"Works exactly as described, very happy.",positive,test,"{'annotator_a': 'positive', 'annotator_b': 'positive', 'resolution_method': 'agreement'}",positive,positive,few_shot
+16,Late delivery with zero communication from the seller.,negative,test,"{'annotator_a': 'negative', 'annotator_b': 'negative', 'resolution_method': 'agreement'}",negative,negative,few_shot
+22,"Average product, nothing special.",neutral,test,"{'annotator_a': 'neutral', 'annotator_b': 'neutral', 'resolution_method': 'agreement'}",neutral,neutral,few_shot
+29,Acceptable for the price point.,neutral,test,"{'annotator_a': 'neutral', 'annotator_b': 'negative', 'resolution_method': 'gold_fallback'}",neutral,neutral,few_shot
