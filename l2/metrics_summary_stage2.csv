@@ -1,3 +1,0 @@
-strategy,accuracy,macro_f1,unknown_rate
-zero_shot,1.0,1.0,0.0
-few_shot,1.0,1.0,0.0
